@@ -1,0 +1,33 @@
+body {
+  background-color: black;
+}
+#title {
+  font-size: 5em;
+  font-family: "Rubik Iso";
+  display: flex;
+  justify-content: center;
+  color: gold;
+}
+#startButtonParent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#startGameButton {
+  color: gold;
+  font-family: "Rubik Iso";
+  font-size: xx-large;
+  display: inline-block;
+  background-color: rgb(39, 37, 37);
+  margin-top: 8%;
+  padding: 0.9rem;
+  border-style: solid;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px gold;
+}
+#startGameButton:hover {
+  color: silver;
+  box-shadow: 3px 3px 3px silver;
+  border-color: silver;
+  opacity: 0.9;
+}
